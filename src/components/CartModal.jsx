@@ -79,7 +79,7 @@ const CartModal = ({ cart, onClose }) => {
                 <td className="py-4 text-center font-bold text-slate-700">
                   ${totalPrice.toFixed(2)}
                 </td>
-                <td className="py-4"></td> {/* Empty space for alignment */}
+                <td className="py-4"></td>
               </tr>
             </tfoot>
           </table>
