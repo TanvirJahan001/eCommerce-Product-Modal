@@ -1,13 +1,30 @@
-# eCommerce Cart Modal
+# eCommerce Product Modal
 
-This is a simple React component that displays a shopping cart modal. It shows the list of items added to the cart, along with their details like color, size, quantity, and price. It provides options to close the modal, continue shopping, and proceed to checkout.
+This is a simple React component that displays a product and shopping cart modal. the product page allows users to select a color and size for the product, manage product quantity, mark items as "loved" using a heart icon, display images based on the selected color, and view pricing details with a discount. The product description provides more information about the product and its specifications.
+
+Additionally, Cart Page shows the list of items added to the cart, along with their details like color, size, quantity, and price. It provides options to close the modal, continue shopping, and proceed to checkout.
 
 ## Features
 
+### Product Page Features:
+- **Product Selection**: Users can select a color and size for the product.
+- **Quantity Control**: Increase or decrease the quantity of the product.
+- **Wishlist Feature**: Mark products as "loved" with a heart icon.
+- **Image Carousel**: Display product images based on the selected color.
+- **Pricing**: Display the original price and the discounted price.
+- **Description**: Provide a description of the product and its specifications.
+- **Add to Cart**: Allows users to add the selected product with chosen color, size, and quantity to the cart.
+- **Cart Count**: Displays the total number of items in the cart.
+- **Checkout Button**: Initiates the checkout process with the current contents of the cart.
+- **Cart Modal**: Display the cart items in a modal with options to close, remove items, and proceed to checkout.
+
+### Cart Page Features:
 - **Displays cart items with details**: Show item name, color, size, quantity, and price.
 - **Calculates total quantity and price**: Automatically sums up the quantity and total price of items in the cart.
 - **Cart Management**: Options to remove items, close the modal, continue shopping, and checkout.
 - **Responsive Design**: Adjusts layout for different screen sizes.
+- **Live Demo**: See it in action at [eCommerce Cart Modal](https://ecommerce-card-project.vercel.app/).
+
 
 ## Technologies Used
 
