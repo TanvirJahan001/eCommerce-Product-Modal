@@ -3,7 +3,7 @@ import blueImage from "../images/blue.png";
 import tealImage from "../images/teal.png";
 import violetImage from "../images/violet.png";
 import zincImage from "../images/zinc.png";
-import CartModal from "./CartModal"; // Import your CartModal component
+import CartModal from "./CartModal"; 
 
 const ProductPage = () => {
   const [quantity, setQuantity] = useState(0);
@@ -59,7 +59,7 @@ const ProductPage = () => {
     };
 
     setCart([...cart, newItem]);
-    setCartItemCount(cartItemCount + quantity); // Update total count
+    setCartItemCount(cartItemCount + quantity);
     setQuantity(0);
   };
 
