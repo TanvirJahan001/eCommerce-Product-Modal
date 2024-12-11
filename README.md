@@ -1,13 +1,24 @@
-
 # eCommerce Cart Modal
 
 This is a simple React component that displays a shopping cart modal. It shows the list of items added to the cart, along with their details like color, size, quantity, and price. It provides options to close the modal, continue shopping, and proceed to checkout.
 
 ## Features
 
-- Displays cart items with details such as color, size, quantity, and price.
-- Calculates the total quantity and price of items in the cart.
-- Provides options to close the modal, continue shopping, or proceed to checkout.
+- **Displays cart items with details**: Show item name, color, size, quantity, and price.
+- **Calculates total quantity and price**: Automatically sums up the quantity and total price of items in the cart.
+- **Cart Management**: Options to remove items, close the modal, continue shopping, and checkout.
+- **Responsive Design**: Adjusts layout for different screen sizes.
+
+## Technologies Used
+
+- **Frontend**:
+  - **React**: For building the user interface and managing the state.
+  - **Tailwind CSS**: For styling and responsive design.
+  - **JavaScript**: Core language for the application logic.
+  - **SVG Icons**: For UI elements like close button.
+
+- **Deployment**:
+  - **Vercel**: Hosting the live demo of the project.
 
 ## Live Demo
 
@@ -20,7 +31,6 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/ecommerce-cart-modal.git
-   ```
 
 2. Navigate to the project directory:
    ```bash
