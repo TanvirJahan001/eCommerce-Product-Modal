@@ -47,7 +47,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/eCommerce-Product-Modal.git
+   git clone https://github.com/TanvirJahan001/eCommerce-Product-Modal.git
 
 2. Navigate to the project directory:
    ```bash
