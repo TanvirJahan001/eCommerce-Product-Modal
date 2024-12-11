@@ -39,7 +39,8 @@ Additionally, Cart Page shows the list of items added to the cart, along with th
 
 ## Live Demo
 
-You can view a live demo of this project at [eCommerce Cart Modal](https://ecommerce-card-project.vercel.app/).
+You can view a live demo of this project at [eCommerce Cart Modal](https://e-commerce-product-modal.vercel.app/).
+
 
 ## Installation
 
