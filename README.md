@@ -23,7 +23,7 @@ Additionally, Cart Page shows the list of items added to the cart, along with th
 - **Calculates total quantity and price**: Automatically sums up the quantity and total price of items in the cart.
 - **Cart Management**: Options to remove items, close the modal, continue shopping, and checkout.
 - **Responsive Design**: Adjusts layout for different screen sizes.
-- **Live Demo**: See it in action at [eCommerce Cart Modal](https://ecommerce-card-project.vercel.app/).
+
 
 
 ## Technologies Used
@@ -47,11 +47,11 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ecommerce-cart-modal.git
+   git clone https://github.com/yourusername/eCommerce-Product-Modal.git
 
 2. Navigate to the project directory:
    ```bash
-   cd ecommerce-cart-modal
+   cd eCommerce-Product-Modal
    ```
 
 3. Install the dependencies:
@@ -66,9 +66,6 @@ To run this project locally, follow these steps:
 
 5. Open your browser and go to `http://localhost:3000` to view the application.
 
-## Usage
-
-To use the `CartModal` component, simply import it into your React project and pass the `cart` state and `onClose` function as props. You can also pass a `removeItem` function to handle item removal from the cart.
 
 ## Example
 
