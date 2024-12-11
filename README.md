@@ -5,7 +5,7 @@
 This project is an e-commerce card where users can view products, manage their cart, and checkout. It includes features such as adding items to the cart, updating item quantities, viewing cart totals, and interacting with a modal to manage cart items.
 
 ### Live Preview
-[Click here to view the live demo]([https://your-live-demo-link.com](https://ecommerce-card-project.vercel.app/))
+[Click here to view the live demo](https://your-live-demo-link.com](https://ecommerce-card-project.vercel.app)
 
 ## Features
 - **Add to Cart**: Users can add items to the cart with specific quantities.
