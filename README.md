@@ -77,7 +77,3 @@ Contributions are welcome! If you find any issues or have suggestions, feel free
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Live Demo
-
-[eCommerce Cart Modal](https://ecommerce-card-project.vercel.app/)
