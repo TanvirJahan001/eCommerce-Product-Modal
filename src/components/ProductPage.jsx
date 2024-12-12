@@ -198,7 +198,7 @@ const ProductPage = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 mt-4">
+          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4">
             <div className="flex items-center space-x-2 border border-gray-300 rounded-md">
               <button
                 onClick={decreaseQuantity}
@@ -217,7 +217,7 @@ const ProductPage = () => {
               </button>
             </div>
 
-            <div className="flex flex-col items-center space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+            <div className="flex flex-col items-center space-y-2 md:flex-row md:space-y-0 md:space-x-4">
               <button
                 onClick={handleAddToCart}
                 className={`w-full md:w-auto px-6 py-3 rounded-lg shadow-lg ${
@@ -231,7 +231,7 @@ const ProductPage = () => {
 
               <button
                 onClick={toggleLove}
-                className={`w-10 h-10 flex justify-center items-center rounded-full hover:shadow-lg transition-colors duration-300 ${
+                className={`w-10 h-10 m-2 flex justify-center items-center rounded-full hover:shadow-lg transition-colors duration-300 ${
                   isLoved
                     ? "bg-red-500 text-white"
                     : "bg-transparent text-indigo-500 border border-transparent hover:text-red-500 hover:border-red-500"
@@ -258,7 +258,7 @@ const ProductPage = () => {
       </div>
 
       {/* Checkout Button - Responsive */}
-      <div className="flex justify-center mt-6 px-4">
+      <div className="flex justify-center mt-6 px-4 py-6">
         <button
           onClick={handleCheckout}
           className="px-4 md:px-6 py-2 text-base md:text-lg font-semibold bg-orange-300 text-slate-700 rounded-full shadow-lg hover:bg-orange-500 flex items-center justify-center"
