@@ -229,7 +229,7 @@ const ProductPage = () => {
               >
                 Add to Cart
               </button>
-              </div>
+    
              <div>
               <button
                 onClick={toggleLove}
