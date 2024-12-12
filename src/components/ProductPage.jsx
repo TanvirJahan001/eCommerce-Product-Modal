@@ -3,7 +3,7 @@ import blueImage from "../images/blue.png";
 import tealImage from "../images/teal.png";
 import violetImage from "../images/violet.png";
 import zincImage from "../images/zinc.png";
-import CartModal from "./CartModal"; 
+import CartModal from "./CartModal"; // Import your CartModal component
 
 const ProductPage = () => {
   const [quantity, setQuantity] = useState(0);
@@ -59,7 +59,7 @@ const ProductPage = () => {
     };
 
     setCart([...cart, newItem]);
-    setCartItemCount(cartItemCount + quantity);
+    setCartItemCount(cartItemCount + quantity); // Update total count
     setQuantity(0);
   };
 
@@ -232,19 +232,17 @@ const ProductPage = () => {
         </div>
       </div>
 
-      {cart.length > 0 && (
-        <div className="flex justify-center mt-6">
-          <button
-            onClick={handleCheckout}
-            className="px-6 py-2 text-lg font-semibold bg-orange-300 text-slate-700 rounded-full shadow-lg hover:bg-orange-600 flex items-center justify-center"
-          >
-            Checkout
-            <span className="ml-2 text-lg font-bold bg-white text-slate-700 px-3 py-1 rounded-lg">
-              {cartItemCount}
-            </span>
-          </button>
-        </div>
-      )}
+      <div className="flex justify-center mt-6">
+        <button
+          onClick={handleCheckout}
+          className="px-6 py-2 text-lg font-semibold bg-orange-300 text-slate-700 rounded-full shadow-lg hover:bg-orange-500 flex items-center justify-center"
+        >
+          Checkout
+          <span className="ml-2 text-lg font-bold bg-white text-slate-700 px-3 py-1 rounded-lg">
+            {cartItemCount}
+          </span>
+        </button>
+      </div>
       {isCartModalVisible && (
         <CartModal
           cart={cart}
