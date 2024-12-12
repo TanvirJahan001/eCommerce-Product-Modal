@@ -199,7 +199,7 @@ const ProductPage = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4 mt-4">
+          <div className="flex flex-col md:flex-row items-center justify-items-center space-y-4 md:space-y-0 md:space-x-4 mt-4">
             <div className="flex items-center space-x-2 border border-gray-300 rounded-md">
               <button
                 onClick={decreaseQuantity}
