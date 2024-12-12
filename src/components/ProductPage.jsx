@@ -199,7 +199,7 @@ const ProductPage = () => {
             </div>
           </div>
 
-          <div className="flex flex-col md:flex-col items-center justify-items-center space-y-4 md:space-y-0 md:space-x-4 mt-4">
+          <div className="flex flex-col md:flex-row items-center justify-items-center space-y-4 md:space-y-0 md:space-x-4 mt-4">
             <div className="flex items-center space-x-2 border border-gray-300 rounded-md">
               <button
                 onClick={decreaseQuantity}
@@ -230,6 +230,7 @@ const ProductPage = () => {
                 Add to Cart
               </button>
 
+             <div>
               <button
                 onClick={toggleLove}
                 className={`w-10 h-10 flex justify-center items-center rounded-full hover:shadow-lg transition-colors duration-300 ${
@@ -253,6 +254,7 @@ const ProductPage = () => {
                   />
                 </svg>
               </button>
+               </div>
             </div>
           </div>
         </div>
