@@ -232,19 +232,18 @@ const ProductPage = () => {
         </div>
       </div>
 
-      {cart.length > 0 && (
-        <div className="flex justify-center mt-6">
-          <button
-            onClick={handleCheckout}
-            className="px-6 py-2 text-lg font-semibold bg-orange-300 text-slate-700 rounded-full shadow-lg hover:bg-orange-600 flex items-center justify-center"
-          >
-            Checkout
-            <span className="ml-2 text-lg font-bold bg-white text-slate-700 px-3 py-1 rounded-lg">
-              {cartItemCount}
-            </span>
-          </button>
-        </div>
-      )}
+      {/* Remove the cart.length > 0 condition */}
+      <div className="flex justify-center mt-6">
+        <button
+          onClick={handleCheckout}
+          className="px-6 py-2 text-lg font-semibold bg-orange-300 text-slate-700 rounded-full shadow-lg hover:bg-orange-500 flex items-center justify-center"
+        >
+          Checkout
+          <span className="ml-2 text-lg font-bold bg-white text-slate-700 px-3 py-1 rounded-lg">
+            {cartItemCount}
+          </span>
+        </button>
+      </div>
       {isCartModalVisible && (
         <CartModal
           cart={cart}
